@@ -36,11 +36,11 @@ body {
 .task-row-wrapper {
   display: flex;
 }
-ul {
+.tasks-list {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+.tasks-item {
   list-style: none;
 }
 input,button{
@@ -60,7 +60,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
